@@ -217,7 +217,7 @@ var Menu = React.createClass({
 
     if (this.props.hideable) {
       el = this.getDOMNode();
-      var innerContainer = this.refs.paperContainer.getInnerContainer().getDOMNode();
+      innerContainer = this.refs.paperContainer.getInnerContainer().getDOMNode();
       
       if (this.props.visible) {
 
